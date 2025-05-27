@@ -5,9 +5,9 @@ import pandas as pd
 
 from scipy.optimize import curve_fit 
 
-from sklearn.metrics import roc_auc_score
+#from sklearn.metrics import roc_auc_score
 
-from sklearn.metrics import precision_recall_curve
+#from sklearn.metrics import precision_recall_curve
 ##import phik
 ##from phik import phik_matrix
 ##from phik.report import plot_correlation_matrix
