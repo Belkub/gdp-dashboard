@@ -42,7 +42,7 @@ if st.button('Рассчет'):
    
     df_n = pd.DataFrame({'PAC':[pac],'Flomin':[flom],'Conc':[conc],'f600':[f600],'f3':[f3],'Gel10':[gel],'Ticsotrop':[tics]})
 
-    with open('scaler.pkl', 'rb') as u:
+    with open('gdp-dashboard/scaler.pkl', 'rb') as u:
         scaler = pickle.load(u)
         
     with open('data_pr.pkl', 'rb') as f:
