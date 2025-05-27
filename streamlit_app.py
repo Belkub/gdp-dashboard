@@ -5,18 +5,13 @@ import pandas as pd
 
 from scipy.optimize import curve_fit 
 
-#from sklearn.metrics import roc_auc_score
 
-#from sklearn.metrics import precision_recall_curve
-##import phik
-##from phik import phik_matrix
-##from phik.report import plot_correlation_matrix
 
 import torch
 import pickle
 import streamlit as st
 
-#matplotlib.use('TkAgg')
+
 
 st.title('Калькулятор Альбрехта-MV')
 col1, col2 = st.columns(2)
